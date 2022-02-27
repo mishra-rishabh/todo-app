@@ -1,0 +1,17 @@
+<!-- <div class="card">
+  <div class="card-body">
+    <h5>{{ task.text }}</h5>
+    <p>{{ task.day }}</p>
+  </div>
+</div> -->
+
+<div [ngClass]="{reminder: task.reminder}" class="card mx-1 my-2" style="width: 22rem;" (dblclick)="onToggle(task)">
+  <div class="card-body">
+    <h5 class="card-title">{{task.text}}</h5>
+    <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+    <p class="card-text">{{ task.day }}</p>
+    <button class="btn btn-outline-danger btn-sm w-25" (click)="onDelete(task)"><fa-icon [icon]="faTimes"></fa-icon></button>
+    <!-- <a href="#" class="card-link">Card link</a> -->
+    <!-- <a href="#" class="card-link">Another link</a> -->
+  </div>
+</div>

@@ -1,0 +1,4 @@
+<header class="d-flex justify-content-between align-items-center mt-3 mb-5">
+  <h1 *ngIf="hasRoute( '/' )">{{ title }}</h1>
+  <app-button *ngIf="hasRoute( '/' )" myClass="{{ showAddTask ? 'btn-danger' : 'btn-primary' }}" text="{{ showAddTask ? 'Close' : 'Add' }}" (btnClick)="toggleAddTask()"></app-button>
+</header>

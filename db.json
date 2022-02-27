@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Complete assignment",
+      "day": "May 15 at 2:30 pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Scrum call",
+      "day": "May 15 at 10:30 am",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Submit report",
+      "day": "May 15 at 11:00 am",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Doubt clearing session",
+      "day": "May 15 at 11:00 am",
+      "reminder": false
+    },
+    {
+      "text": "Complete project",
+      "day": "Feb 27 at 11:00 am",
+      "reminder": true,
+      "id": 5
+    }
+  ]
+}
